@@ -1,13 +1,23 @@
 [
   {
     "modid": "chattime_plugin",
-    "name": "ChatTime Plugin",
-    "version": "1.0",
+    "name": "Meu Plugin de Chat Time",
+    "description": "Adiciona um carimbo de data/hora às mensagens do chat",
+    "version": "1.0.0",
     "mcversion": "1.12.2",
-    "description": "Plugin de chat com timestamp",
     "url": "",
-    "authorList": ["Junior Eudes"],
-    "credits": "",
-    "dependencies": []
+    "updateUrl": "",
+    "authorList": ["Eudes Junior"],
+    "credits": "Créditos a IA que me auxiliou na criação deste plugin",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+      "spongeapi@[7.1.0,)",
+      "minecraft@[1.12.2,)"
+    ],
+    "requiredMods": [
+      "spongeapi@[7.1.0,)",
+      "minecraft@[1.12.2,)"
+    ]
   }
 ]
