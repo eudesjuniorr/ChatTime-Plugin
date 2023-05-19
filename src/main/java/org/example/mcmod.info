@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "chattime_plugin",
+    "name": "ChatTime Plugin",
+    "version": "1.0",
+    "mcversion": "1.12.2",
+    "description": "Plugin de chat com timestamp",
+    "url": "",
+    "authorList": ["Junior Eudes"],
+    "credits": "",
+    "dependencies": []
+  }
+]
