@@ -11,4 +11,4 @@ This plugin adds a timestamp to chat messages and a message when any player join
 
 #
 
-I hope that you like it :)
+**I hope that you like it :)**
