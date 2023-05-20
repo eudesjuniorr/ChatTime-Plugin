@@ -1,7 +1,7 @@
 [
   {
     "modid": "chattime_plugin",
-    "name": "Meu Plugin de Chat Time",
+    "name": "a plugin that adds a timestamp to chat messages",
     "description": "Adiciona um carimbo de data/hora às mensagens do chat",
     "version": "1.0.0",
     "mcversion": "1.12.2",
