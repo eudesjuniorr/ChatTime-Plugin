@@ -13,5 +13,7 @@ This plugin adds a timestamp to chat messages and a message when any player join
 
 **I hope that you like it :)**
 
+#
+
 # LICENSE
 Copyright © Eudes Jr. Distributed under the GNU General Public License v3.0. 
