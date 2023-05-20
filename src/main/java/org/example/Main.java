@@ -49,24 +49,6 @@ import java.util.Date;
 
         player.sendMessage(joinMessage);
     }
-    @Listener // to broadcast messages
-    public void onBroadcastMessage(MessageChannelEvent.Chat event) {
-        Date now = new Date();
-
-        TimeZone timeZone = TimeZone.getTimeZone("GMT-3");
-        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm");
-        dateFormat.setTimeZone(timeZone);
-
-        String timestamp = dateFormat.format(now);
-        String message = event.getRawMessage().toPlain();
-
-        Text newMessage = Text.builder()
-                .append(Text.of("[" + timestamp + "] "))
-                .append(Text.of(message))
-                .build();
-
-        event.setMessage(newMessage);
-    }
 }
 
 
